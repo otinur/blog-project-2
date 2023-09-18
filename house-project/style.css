@@ -1,0 +1,768 @@
+/* font-family: 'Bitter', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Italianno', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+
+/* reset code and common code starts here  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1170px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.btn {
+    border: none;
+    text-transform: uppercase;
+    border-radius: .2rem;
+    padding: .5rem;
+}
+.banner-dotted{
+    height: .5rem;
+    width: 0.5rem;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+}
+.red{
+    background-color:#ff0000;
+}
+/* reset code and common code ends here  */
+
+
+/* navbar design starts here */
+
+.navigition{
+    background-color:whitesmoke;
+    padding: 1rem;
+    min-height: 5vh;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.upeer-nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid gray;
+    padding: .5rem;
+}
+.upeer-nav-desc{
+
+}
+.upeer-nav-icon{
+    font-size: .9rem;
+    color: red;
+}
+.upeer-nav-icon-1{
+    margin-left: 2rem;
+}
+.upeer-nav-email{
+    color: black;
+}
+
+.upeer-nav-icon-1{
+
+}
+.upeer-icon{
+    margin: 0 .5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: gray;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.loweer-nav{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+.loweer-nav-items{
+    display: flex;
+}
+.loweer-nav-name{
+    font-family: 'Roboto', sans-serif;
+  
+}
+.loweer-nav-items a{
+    color: black;
+    margin: 0 1rem;
+}
+.nav-home{
+    color: red;
+}
+.nav-visit{
+    
+   
+}
+.nav-visit a{
+    background-color: black;
+    color: #fff;
+    padding: .3rem;
+    border-radius: 20px;
+}
+.fa-eye{
+    background-color: red;
+    padding: .3rem;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+/* navbar design ends here */
+
+/* banner design starts here */
+
+.banner-all-items{
+    background-image: url(images/banner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    border-radius: 20px;
+    
+}
+.banner-all-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.canada{
+    color: #ff0000;
+}
+.banner-items{
+    
+}
+.banner-desc{
+   
+    
+}
+.banner-desc h1{
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-dotted{
+    margin-top:5rem ;
+    margin-left: .3rem;
+}
+.dotted{
+    
+}
+
+/* banner design ends here */
+
+/* featured design starts here */
+.featured{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 2rem;
+    padding: 3rem;
+    /* margin-top: 4rem; */
+}
+.featured-photo{
+  
+}
+
+.featured-photo img{
+   width: 100%;
+   height: 100%;
+}
+.featur{
+
+}
+.featured-photo-img{
+    position: absolute;
+}
+.featured-desc{
+   
+}
+.featured-desc-1{
+    
+}
+.featured-p{
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+    margin: 1rem 0;
+}
+.featured-h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.featured-span{
+    color: #ff0000;
+}
+.featured-desc-p{
+    text-align: justify;
+    margin: 1rem 0;
+}
+.featured-p-all-items{
+    background-color:aliceblue;
+    padding: .2rem;
+}
+
+
+.featured-cart{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 10%;
+    box-shadow: .0rem .1rem .2rem .3rem #dcdcdc;
+}
+
+.featured-cart-desc{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.featured-icon{
+    font-size: 2rem;
+    color:#ff0000;
+    margin: 1.5rem 0;
+}
+.featured-cart-h3{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* featured design ends here */
+/* video view design starts here */
+
+.video-view-banner{
+    background-image: url(images/blur.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 70vh;
+    position: relative;
+}
+
+.video-view-banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.video-view-heading{
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 0 2rem 0;
+    color: #ff0000;
+}
+.video-view-desc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color:#fff;
+    
+}
+
+.video-view-pic{
+    position: absolute;
+    bottom:-40%;
+    left: 15%;
+    right: 15%;
+    max-width: 70%;
+    height: 80%;
+}
+.video-view-pic img{
+    height:100%;
+    width:100% ;
+    border-radius: 1rem;
+    
+}
+.video-view-cart-all-items{
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns:repeat(3, minmax(0,1fr));
+    gap:3rem;
+    padding: 2rem;
+
+}
+.video-view-cart-number{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(242, 207, 207);
+    height: 4rem;
+    width: 13rem;
+    position: relative;
+    border-radius:.5rem ;
+    margin-left: 4rem;
+}
+.dot{
+    position:absolute;
+    top: -.8rem;
+    right: -.8rem;
+    margin-top:0 ;
+    margin-left:0 ;
+    height: 2rem;
+    width: 2rem;
+   
+}
+.video-view-number{
+    color: #ff0000;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.video-view-cart-h3{
+    font-family: 'Roboto', sans-serif;
+}
+.video-view-cart-p{
+    font-size: .9rem;
+}
+
+/* video view design ends here */
+
+/* best deal design starts here */
+
+.best-deal{
+    background-color: #ebe5e5;
+}
+.best-deal-desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.best-deal-btn .red{
+    background-color: #ff0000;
+    color: #fff;
+    text-transform: capitalize;
+}
+.best-deal-button{
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 .5rem;
+}
+.best-deal-desc-h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+.best-deal-desc-items{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 3rem;
+    padding: 1rem;
+}
+.best-deal-photo img{
+    height: 100%;
+    width: 100%;
+}
+
+.best-deal-cart-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.best-deal-cart-p{
+    font-size: .8rem;
+    opacity: .5;
+}
+.best-deal-cart-h4{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.best-deal-desc-items-h4{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+}
+.best-deal-desc-items-p{
+    margin: 1rem 0;
+}
+.best-deal-icon-button a{
+    background-color: #000;
+    color: #fff;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.best-deal-icon-button .best-deal-icon{
+    margin-left:-8px ;
+    padding: .5rem;
+
+}
+
+/* best deal design ends here */
+
+/* properties design starts here */
+
+.properties{
+    min-height: 90vh;
+}
+.properties-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.properties-heading-2{
+    color: #ff0000;
+    margin: 1rem 0 ;
+}
+.properties-desc-h3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.properties-cart{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 3rem;
+    padding: 1rem;
+    height: auto;
+}
+.properties-cart-items{
+    background-color: #f4eeee;
+    padding: .6rem;
+    border-radius: .6rem;
+    height: auto;
+}
+.properties-cart-items img{
+   height: 50%;
+   width: 100%;
+   display: inline-block;
+   border-radius: 1rem;
+}
+.properties-cart-desc{
+    padding: .6rem;
+}
+.properties-cart-heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.properties-btn{
+    background-color:rgb(242, 207, 207);
+    border-radius:.3rem ;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.properties-cart-heading-h4{
+    color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+}
+.pro-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.properties-cart-main{
+    display: flex;
+    justify-content: space-between;
+}
+.properties-p{
+    font-size: .9rem;
+    margin: .5rem 0;
+}
+.properties-p .properties-strong{
+    opacity: 1;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.properties-button{
+    text-align: center;
+    margin:1rem 0 .5rem 0 ;
+}
+.pro-button{
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    padding: .6rem;
+}
+
+/* properties design ends here */
+
+
+/* contact design starts here */
+
+.contact-us{
+    min-height: 90vh;
+}
+.contact-desc{
+    text-align: center;
+    padding: 2rem;
+}
+.contact-heading-2{
+    color: #ff0000;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.contact-heading-h3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    
+}
+.contact-map{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: .6rem;
+    height: auto;
+    padding: 1rem;
+    background-color: #f4eeee;
+}
+.map-1{
+    height: 80%;
+    width: 100%;
+   
+}
+.map{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    
+}
+.contact-div{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+.contact-icon-desc-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: .0rem .1rem .2rem .3rem #dcdcdc;
+    height: 3.5rem;
+    width: 13rem;
+    padding: .4rem;
+    border-radius: .6rem;
+    background-color: #fff;
+}
+.contact-icon-1{
+    font-size: 1.5rem;
+    color: red;
+}
+.contact-map-number{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-map-phone-number{
+    font-size: .8rem;
+}
+
+/* contact input design starts here  */
+
+.contact-items{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: .6rem;
+    width: 100%;
+    height: 100%;
+    border-radius: .6rem;
+    box-shadow: .0rem .1rem .2rem .3rem #dcdcdc;
+    margin: 0 auto;
+}
+.contact-items input{
+    display: flex;
+    width: 100%;
+    height: 1.5rem;
+    padding: .4rem;
+    margin: .5rem 0;
+    background-color: #f4eded;
+    border: none;
+    border-radius: .6rem;
+}
+textarea{
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    margin: 1rem 0;
+    resize: none;
+    background-color: #f4eded;
+    border: none;
+    border-radius: .6rem;
+    padding: .5rem;
+}
+.contact-btn{
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    padding: .6rem;
+}
+
+/* contact input design ends here  */
+
+/* contact design ends here */
+
+/* footer design starts here */
+
+.footer{
+    min-height: 5vh;
+    max-width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.footer-all-items{
+    padding: 2rem;
+}
+.footer-all-items h5{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* footer design ends here */
+
+/* responsive media design starts here */
+
+@media (max-width:992px){
+    .upeer-nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        border: none;
+    }
+    .loweer-nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .loweer-nav-items{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .upeer-nav-icon-1{
+        margin-left: 1rem;
+    }
+
+    .video-view-cart-all-items{
+        margin-top: 40%;
+        gap:1rem;
+        padding: 1rem;
+    
+    }
+    .video-view-cart-number{
+        margin-left:.3rem;
+    }
+
+    .properties-cart{
+        grid-template-columns: repeat(1, minmax(0,1fr)); 
+    }
+    .properties-cart-items img{
+       height: auto;
+    }
+    .properties-cart-items{
+        box-shadow: .0rem .1rem .2rem .3rem #dcdcdc;
+    }
+    .contact-map{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+    }
+    .contact-div{
+        margin-bottom: 0rem;
+    }
+    .map-1{
+        max-width: 100%;
+    }
+    .contact-items{
+        margin-top: 2rem;
+        height: 87%;
+    }
+    
+}
+
+@media (max-width:768px){
+    .featured{
+       
+        grid-template-columns: repeat(1, minmax(0,1fr));
+        
+    }
+    .video-view-cart-all-items{
+        margin-top: 40%;
+        grid-template-columns:repeat(1, minmax(0,1fr));
+        gap:3rem;
+        padding: 2rem;
+    
+    }
+    .best-deal-cart{
+        box-shadow: .0rem .1rem .2rem .3rem #dcdcdc;
+    }
+    .video-view-cart-number{
+        height: 6rem;
+        width: 17rem;
+        margin:0 auto;
+    }
+    .best-deal-desc-items{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+       
+    }
+    .map-1{
+        height: 100%;
+    }
+    .contact-items{
+        margin-top: 4rem;
+        height: 87%;
+    }
+    
+}
+
+
+@media (max-width:600px){
+
+    .video-view-cart-all-items{
+        margin-top: 45%;
+    
+    }
+    
+    .best-deal-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contact-div{
+        flex-direction: column;
+       
+    }
+    .contact-icon-desc-1{
+        width: 63%;
+        margin: 0 auto;
+       
+    
+    }
+    .contact-items{
+        margin-top: 10rem;
+    }
+    .contact-items{
+        height: 72%;
+    }
+}
+
+/* responsive media design ends here */
